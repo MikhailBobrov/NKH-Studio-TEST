@@ -135,6 +135,96 @@
 
             </div>
         </div>
+
+        <h2 class="catalog-page__table">Таблица</h2>
+        <table class="catalog-page__html-table">
+            <caption class="catalog-page__call">Посещения по городам</caption>
+            <tr>
+                <th class="table__page-th">Город</th>
+                <th class="table__page-th">Посещения</th>
+                <th class="table__page-th">Страниц</th>
+                <th class="table__page-th">Время</th>
+            </tr>
+            <tr>
+                <td class="table__page-td">СПб</td>
+                <td class="table__page-td">199</td>
+                <td class="table__page-td">18,02</td>
+                <td class="table__page-td">00:13:45</td>
+            </tr>
+            <tr>
+                <td class="table__page-td">Москва</td>
+                <td class="table__page-td">69</td>
+                <td rowspan="2" class="table__page-td">нет данных</td>
+                <td class="table__page-td">00:00:44</td>
+            </tr>
+            <tr>
+                <td class="table__page-td">Киев</td>
+                <td class="table__page-td">5</td>
+                <td class="table__page-td">00:18:07</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="table__page-td">Всего посещений</td>
+                <td class="table__page-td">273</td>
+            </tr>
+        </table>
+
+        <h2 class="catalog-page__div-table">Div Таблица</h2>
+        <div class="d-table">
+            <div class="d-tr">
+                <div class="d-td">ФИО</div>
+                <div class="d-td">ВОЗРАСТ</div>
+                <div class="d-td">ПОЛ</div>
+                <div class="d-td">КЛАСС</div>
+            </div>
+            <div class="d-tr">
+                <div class="d-td no-p">
+                    <div class="d-table">
+                        <div class="d-tr">
+                            <div class="d-td">lorem</div>
+                        </div>
+                        <div class="d-tr">
+                            <div class="d-td">lorem</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-td no-p">
+                    <div class="d-table">
+                        <div class="d-tr">
+                            <div class="d-td">lorem</div>
+                            <div class="d-td">lorem</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-td">lorem</div>
+                <div class="d-td">lorem</div>
+            </div>
+        </div>
+
+        <h2 class="catalog-page__list list-menu">Аккордион</h2>
+        <div class="catalog-page__list-wrapper">
+            <div class="catalog-page__list-accordion accordion">
+                <div class="accordion__item">
+                    <input class="accordion__item-input" type="checkbox" id="accordion-1">
+                    <label class="accordion__item-trigger" for="accordion-1">
+                        Trigger 1
+                    </label>
+                    <div class="accordion__item-content">
+                        Content 1
+                    </div>
+                </div>
+
+                <div class="accordion__item">
+                    <input class="accordion__item-input" type="checkbox" id="accordion-2">
+                    <label class="accordion__item-trigger" for="accordion-2">
+                        Trigger 2
+                    </label>
+                    <div class="accordion__item-content">
+                        Content 2
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+<script src="script/index.js"></script>
 </body>
 </html>

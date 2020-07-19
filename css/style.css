@@ -286,6 +286,125 @@ input[type="radio"].visually-hidden {
     clear: both;
 }
 
+/*table*/
+.catalog-page__table {
+    padding-left: 55px;
+    padding-top: 55px;
+    padding-bottom: 23px;
+    color: black;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    width: 1400px;
+}
+
+.table__page-td {
+    border: 1px solid lightgray;
+    padding: 10px;
+
+}
+
+.table__page-th {
+    border-bottom: 2px solid black;
+    padding: 10px;
+
+}
+
+.catalog-page__call {
+    caption-side: bottom;
+    text-align: center;
+}
+
+
+/*Div-таблица*/
+
+.catalog-page__div-table {
+    padding-left: 55px;
+    padding-top: 55px;
+    padding-bottom: 23px;
+    color: black;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    width: 1400px;
+}
+
+.d-table{
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.d-tr{
+    display: table-row;
+}
+
+.d-td{
+    display: table-cell;
+    text-align: center;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.d-td:not(.no-p){
+    padding: 4px;
+}
+
+/*Аккордион*/
+
+.catalog-page__list-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.list-menu {
+    padding-left: 55px;
+    padding-top: 55px;
+    padding-bottom: 23px;
+    color: black;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    width: 1400px;
+}
+
+.accordion {
+
+}
+
+.accordion__item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.accordion__item-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.accordion__item-trigger {
+    display: block;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.accordion__item-content {
+    padding: 20px;
+    border: 1px solid black;
+    border-top: none;
+    display: none;
+}
+
+.accordion__item-input:checked ~ .accordion__item-trigger{
+    background-color: cornsilk;
+}
+
+.accordion__item-input:checked ~ .accordion__item-content{
+    display: block;
+    background-color: cornsilk;
+}
 
 
 
